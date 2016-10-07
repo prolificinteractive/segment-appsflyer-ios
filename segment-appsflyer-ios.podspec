@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "segment-appsflyer-ios"
-  s.version          = "1.1.3"
+  s.version          = "1.1.4"
   s.summary            = "AppsFlyer Integration for Segment's analytics-ios library."
   s.description      = <<-DESC
     AppsFlyer is the market leader in mobile advertising attribution & analytics, helping marketers to pinpoint their targeting, optimize their ad spend and boost their ROI.
@@ -18,6 +18,4 @@ DESC
   
   s.dependency 'Analytics', '~> 3.1'
   s.dependency 'AppsFlyerFramework', '~> 4.5.6'
-
-}
 end
